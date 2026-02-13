@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Valentine Claresa</title>
+  <link rel="stylesheet" href="https://rerofya.github.io/resources/flower.css">
+
+  <style>
+    body{
+      margin:0;
+      background:#111;
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex-direction:column;
+      overflow:hidden;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    /* Container teks */
+    .text-container{
+      position:absolute;
+      top:50px;
+      text-align:center;
+      z-index:10; /* Supaya di atas animasi */
+      color:white;
+    }
+
+    h1{
+      font-size:2.5rem;
+      color:#ff4d6d;
+      margin:0;
+      text-shadow:0 0 15px #ff4d6d;
+    }
+
+    h2{
+      font-size:1.5rem;
+      margin-top:10px;
+      color:#ffc2d1;
+    }
+
+    /* Pastikan animasi di belakang */
+    #flower-container{
+      position:absolute;
+      z-index:1;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="text-container">
+    <h1>🤍 Happy Valentine Day Claresa 🤍</h1>
+  </div>
+
+  <div id="flower-container"></div>
+
+  <script src="https://rerofya.github.io/resources/flower.js"></script>
+
+</body>
+</html>
